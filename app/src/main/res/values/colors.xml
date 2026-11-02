@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Preto e branco (tema claro, o padrão). Só status e campos de signatário têm cor. -->
+    <color name="cor_app">#F4F4F5</color>
+    <color name="cor_superficie">#FFFFFF</color>
+    <color name="cor_texto">#0B0B0C</color>
+    <color name="cor_secundario">#66666C</color>
+    <color name="cor_linha">#E2E2E5</color>
+    <color name="cor_primaria">#0B0B0C</color>
+    <color name="cor_sobre_primaria">#FFFFFF</color>
+    <color name="cor_suave">#EDEDEF</color>
+    <color name="cor_erro">#C62828</color>
+    <color name="cor_erro_suave">#FBE7E7</color>
+
+    <!-- Status do documento -->
+    <color name="status_rascunho">#6B6B72</color>
+    <color name="status_enviado">#0B0B0C</color>
+    <color name="status_parcial">#9A6A00</color>
+    <color name="status_concluido">#1B7A3E</color>
+
+    <!-- Cor dos campos de cada signatário (na ordem da lista) -->
+    <color name="campo_c0">#0B0B0C</color>
+    <color name="campo_c1">#2563EB</color>
+    <color name="campo_c2">#D97706</color>
+    <color name="campo_c3">#7C3AED</color>
+
+    <!-- Fixas (não mudam com o tema) -->
+    <color name="logo_fundo">#0B0B0C</color>
+    <color name="fundo_pdf">#E2E2E5</color>
+    <color name="papel_assinatura">#FFFFFF</color>
+    <color name="tinta_assinatura">#0F1B2D</color>
+</resources>

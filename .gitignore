@@ -1,0 +1,13 @@
+local.properties
+build/
+.gradle/
+.idea/
+*.apk
+*.iml
+.DS_Store
+captures/
+.externalNativeBuild/
+.cxx/
+
+# prints de tela (nao versionar)
+shots/

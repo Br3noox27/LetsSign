@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/raiz"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/include_toolbar" />
+
+    <TextView
+        android:id="@+id/info_assinatura"
+        style="@style/Texto.Apagado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingBottom="8dp" />
+
+    <include
+        android:id="@+id/visualizador"
+        layout="@layout/include_visualizador_pdf"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <TextView
+        style="@style/Texto.Secao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="16dp"
+        android:paddingTop="12dp"
+        android:paddingEnd="16dp"
+        android:text="@string/assine_no_quadro" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_margin="16dp"
+        app:cardBackgroundColor="@color/papel_assinatura"
+        app:strokeColor="?attr/colorOutline"
+        app:strokeWidth="1dp">
+
+        <br.com.fiap.letssign.util.AssinaturaView
+            android:id="@+id/quadro_assinatura"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/quadro_assinatura" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <LinearLayout
+        style="@style/LetsSign.BarraInferior"
+        android:orientation="vertical">
+
+        <com.google.android.material.progressindicator.LinearProgressIndicator
+            android:id="@+id/progresso_assinatura"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:indeterminate="true"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/botao_limpar"
+                style="@style/Widget.LetsSign.Botao.Contorno"
+                android:layout_width="0dp"
+                android:layout_height="56dp"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:text="@string/botao_limpar"
+                app:icon="@drawable/ic_limpar" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/botao_assinar"
+                android:layout_width="0dp"
+                android:layout_height="56dp"
+                android:layout_weight="2"
+                android:enabled="false"
+                android:text="@string/botao_assinar_salvar"
+                app:icon="@drawable/ic_caneta" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

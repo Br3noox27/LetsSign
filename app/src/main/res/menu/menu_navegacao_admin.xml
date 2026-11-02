@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/aba_documentos"
+        android:icon="@drawable/ic_documento"
+        android:title="@string/titulo_documentos" />
+    <item
+        android:id="@+id/aba_signatarios"
+        android:icon="@drawable/ic_pessoas"
+        android:title="@string/titulo_signatarios" />
+</menu>

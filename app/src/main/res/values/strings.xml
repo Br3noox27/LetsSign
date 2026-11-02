@@ -1,0 +1,238 @@
+<resources>
+    <string name="app_name">LetsSign</string>
+
+    <!-- Login -->
+    <string name="login_subtitulo">Prepare, envie e assine documentos pelo celular.</string>
+    <string name="campo_email">E-mail</string>
+    <string name="campo_senha">Senha</string>
+    <string name="botao_entrar">Entrar</string>
+    <string name="erro_login">E-mail ou senha incorretos.</string>
+    <string name="erro_preencha_email">Informe o e-mail.</string>
+    <string name="erro_preencha_senha">Informe a senha.</string>
+    <string name="erro_generico">Algo deu errado: %1$s</string>
+
+    <!-- Comum -->
+    <string name="menu_sair">Sair</string>
+    <string name="ok">OK</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="desfazer">Desfazer</string>
+    <string name="tentar_novamente">Tentar novamente</string>
+    <string name="pagina_x_de_y">Página %1$d de %2$d</string>
+    <string name="pagina_anterior">Página anterior</string>
+    <string name="pagina_proxima">Próxima página</string>
+    <string name="erro_pagina">Não foi possível mostrar esta página.</string>
+    <string name="sem_acesso">Entre novamente para continuar.</string>
+    <string name="erro_pasta">Não foi possível criar a pasta do app.</string>
+
+    <!-- Início do Admin -->
+    <string name="titulo_documentos">Documentos</string>
+    <string name="titulo_signatarios">Signatários</string>
+    <string name="ola_nome">Olá, %1$s</string>
+    <string name="botao_novo_documento">Novo documento</string>
+    <string name="botao_novo_signatario">Novo signatário</string>
+    <string name="filtro_todos">Todos</string>
+    <string name="filtro_rascunho">Rascunho</string>
+    <string name="filtro_enviado">Enviado</string>
+    <string name="filtro_parcial">Parcial</string>
+    <string name="filtro_concluido">Concluído</string>
+    <string name="filtro_com_contagem">%1$s (%2$d)</string>
+    <string name="filtro_ver_todos">Ver todos</string>
+    <string name="vazio_documentos_titulo">Nenhum documento ainda</string>
+    <string name="vazio_filtro_titulo">Nada neste filtro</string>
+    <string name="vazio_filtro_detalhe">Nenhum documento com este status.</string>
+    <string name="vazio_signatarios_titulo">Nenhum signatário cadastrado</string>
+    <string name="vazio_signatarios_detalhe">Cadastre quem vai assinar os documentos.</string>
+    <string name="enviado_em">Enviado em %1$s</string>
+
+    <plurals name="signatarios">
+        <item quantity="one">%1$d signatário</item>
+        <item quantity="other">%1$d signatários</item>
+    </plurals>
+    <plurals name="campos">
+        <item quantity="one">%1$d campo</item>
+        <item quantity="other">%1$d campos</item>
+    </plurals>
+    <plurals name="paginas">
+        <item quantity="one">%1$d página</item>
+        <item quantity="other">%1$d páginas</item>
+    </plurals>
+
+    <!-- Cadastro de Signatário -->
+    <string name="titulo_novo_signatario">Novo signatário</string>
+    <string name="titulo_editar_signatario">Editar signatário</string>
+    <string name="campo_nome_completo">Nome completo</string>
+    <string name="campo_telefone">Telefone com DDD</string>
+    <string name="exemplo_telefone">11 91234-5678</string>
+    <string name="ajuda_senha_nova">Mínimo de 6 caracteres</string>
+    <string name="ajuda_senha_manter">Deixe em branco para manter a senha atual</string>
+    <string name="botao_salvar">Salvar</string>
+    <string name="erro_nome">Informe nome e sobrenome.</string>
+    <string name="erro_email">E-mail inválido. Exemplo: nome@empresa.com</string>
+    <string name="erro_email_em_uso">Este e-mail já está cadastrado.</string>
+    <string name="erro_telefone">Use DDD + número (10 a 13 dígitos).</string>
+    <string name="erro_senha">A senha precisa ter pelo menos 6 caracteres.</string>
+    <string name="signatario_salvo">Signatário salvo.</string>
+
+    <!-- Novo documento -->
+    <string name="titulo_novo_documento">Novo documento</string>
+    <string name="titulo_editar_rascunho">Continuar rascunho</string>
+    <string name="secao_titulo">1. Título</string>
+    <string name="campo_titulo">Título do documento</string>
+    <string name="secao_pdf">2. Arquivo PDF</string>
+    <string name="nenhum_pdf">Nenhum PDF escolhido</string>
+    <string name="ajuda_pdf">Escolha um PDF do celular.</string>
+    <string name="botao_escolher_pdf">Escolher PDF</string>
+    <string name="botao_trocar_pdf">Trocar PDF</string>
+    <string name="botao_escolher_outro">Escolher outro</string>
+    <string name="secao_signatarios">3. Signatários</string>
+    <string name="botao_adicionar">Adicionar</string>
+    <string name="vazio_signatarios_documento">Nenhum signatário ainda. Toque em Adicionar (mínimo 1).</string>
+    <string name="botao_continuar_campos">Continuar: posicionar campos</string>
+    <string name="papel_x">Papel: %1$s</string>
+    <string name="botao_trocar">Trocar signatário</string>
+    <string name="botao_remover">Remover signatário</string>
+    <string name="dialogo_escolher_signatario">Quem vai assinar?</string>
+    <string name="dialogo_trocar_signatario">Trocar %1$s por</string>
+    <string name="dialogo_escolher_papel">Papel de %1$s</string>
+    <string name="dialogo_sem_cadastrados_msg">Cadastre um signatário primeiro.</string>
+    <string name="botao_cadastrar">Cadastrar</string>
+    <string name="todos_ja_na_lista">Todos os signatários já estão na lista.</string>
+    <string name="signatario_removido">%1$s removido</string>
+    <string name="dialogo_arquivo_invalido">Arquivo não aceito</string>
+    <string name="erro_pdf_invalido">O arquivo está corrompido, protegido por senha ou não é um PDF. Escolha outro.</string>
+    <string name="erro_ler_arquivo">Não foi possível ler o arquivo escolhido.</string>
+    <string name="erro_pdf_vazio">O arquivo está vazio.</string>
+    <string name="erro_titulo">Informe o título.</string>
+    <string name="erro_sem_pdf">Escolha o arquivo PDF.</string>
+    <string name="erro_sem_signatario">Adicione pelo menos 1 signatário.</string>
+    <string name="documento_ja_enviado">Este documento já foi enviado e não pode ser alterado.</string>
+    <string name="documento_nao_encontrado">Documento não encontrado.</string>
+
+    <string-array name="descricao_papeis">
+        <item>Quem contrata o serviço</item>
+        <item>Quem é contratado</item>
+        <item>Confirma que o acordo aconteceu</item>
+    </string-array>
+
+    <!-- Posicionar campos -->
+    <string name="titulo_posicionar">Posicionar campos</string>
+    <string name="instrucao_posicionar">Escolha quem assina, toque em Adicionar campo e arraste o retângulo.</string>
+    <string name="chip_signatario">%1$s · %2$s</string>
+    <string name="botao_adicionar_campo">Novo campo</string>
+    <string name="botao_excluir_campo">Excluir</string>
+    <string name="botao_revisar_envio">Revisar envio</string>
+    <string name="campo_excluido">Campo excluído</string>
+    <string name="resumo_campos">Total: %1$s · nesta página: %2$d</string>
+    <string name="erro_abrir_pdf">Não foi possível abrir o PDF. Ele pode ter sido apagado ou estar corrompido.</string>
+
+    <!-- Revisão e envio -->
+    <string name="titulo_revisao">Revisar e enviar</string>
+    <string name="secao_documento">Documento</string>
+    <string name="secao_signatarios_campos">Signatários e campos</string>
+    <string name="secao_convite">Mensagem do convite</string>
+    <string name="mensagem_convite">Olá! Você foi convidado(a) para assinar o documento \"%1$s\" no LetsSign. Abra o app, confira o documento e assine no campo indicado.</string>
+    <string name="info_arquivo">%1$s · %2$s</string>
+    <string name="nome_e_papel">%1$s · %2$s</string>
+    <string name="resumo_envio">%1$s · %2$s</string>
+    <string name="botao_enviar_assinatura">Enviar para assinatura</string>
+    <string name="sem_campos">Nenhum campo de assinatura</string>
+    <string name="campos_por_pagina">Campos: %1$s</string>
+    <string name="pagina_n_quantidade">página %1$d (%2$d)</string>
+    <string name="antes_de_enviar">Antes de enviar, corrija:</string>
+    <string name="dialogo_enviado_titulo">Documento enviado</string>
+    <string name="dialogo_enviado_msg">Convite registrado para %1$s em %2$s.</string>
+    <string name="dialogo_ja_enviado_titulo">Já enviado</string>
+    <string name="dialogo_ja_enviado_msg">O envio já tinha sido registrado em %1$s. Nenhuma solicitação nova foi criada.</string>
+    <string name="dialogo_corrija">Falta ajustar</string>
+    <string name="botao_ajustar">Ajustar campos</string>
+    <string name="dialogo_falha_titulo">Não foi possível enviar</string>
+    <string name="dialogo_falha_msg">O envio falhou (%1$s). Nada foi duplicado. Confira o espaço livre do celular e tente de novo.</string>
+    <string name="ver_acompanhamento">Ver acompanhamento</string>
+
+    <!-- Acompanhamento -->
+    <string name="titulo_detalhe">Acompanhamento</string>
+    <string name="secao_acompanhamento">Acompanhamento</string>
+    <string name="secao_historico">Histórico</string>
+    <string name="etapa_criado">Criado</string>
+    <string name="etapa_concluido">Concluído</string>
+    <string name="assinado_em">Assinado em %1$s</string>
+    <string name="pendente">Pendente</string>
+
+    <!-- Início do Signatário -->
+    <string name="titulo_meus_documentos">Meus documentos</string>
+    <string name="aba_pendentes">Pendentes</string>
+    <string name="aba_assinados">Assinados</string>
+    <string name="vazio_pendentes_titulo">Tudo em dia</string>
+    <string name="vazio_pendentes_detalhe">Nenhum documento esperando sua assinatura.</string>
+    <string name="vazio_assinados_titulo">Nada assinado ainda</string>
+    <string name="vazio_assinados_detalhe">Os documentos que você assinar aparecem aqui.</string>
+    <string name="botao_atualizar">Atualizar</string>
+    <string name="botao_ver_pendentes">Ver pendentes</string>
+    <string name="recebido_em">Recebido em %1$s</string>
+    <string name="detalhe_assinado">Seu papel: %1$s\nAssinado em %2$s\nSituação do documento: %3$s</string>
+
+    <!-- Assinar -->
+    <string name="titulo_assinar">Assinar</string>
+    <string name="info_assinar">Seu papel: %1$s · %2$s para você, a partir da página %3$d.</string>
+    <string name="rotulo_assine_aqui">Assine aqui</string>
+    <string name="assine_no_quadro">Assine com o dedo no quadro</string>
+    <string name="quadro_assinatura">Quadro de assinatura</string>
+    <string name="botao_limpar">Limpar</string>
+    <string name="botao_assinar_salvar">Assinar e salvar</string>
+    <string name="confirmar_assinatura_titulo">Confirmar assinatura?</string>
+    <string name="confirmar_assinatura_msg">Depois de salvar, a assinatura não pode ser desfeita.</string>
+    <string name="assinatura_ok_titulo">Assinatura salva</string>
+    <string name="assinatura_ok_parcial">Assinado em %1$s. Falta a assinatura de outras pessoas.</string>
+    <string name="assinatura_ok_concluido">Assinado em %1$s. Todos assinaram: documento concluído.</string>
+    <string name="assinatura_ja_feita">Você já tinha assinado este documento (%1$s). Nada foi duplicado.</string>
+    <string name="assinatura_falha_titulo">Não foi possível salvar</string>
+    <string name="assinatura_falha_msg">A assinatura não foi salva (%1$s). Tente de novo.</string>
+
+    <!-- Segunda rodada: protótipo preto e branco, nova versão -->
+    <string name="alternar_tema">Alternar tema claro e escuro</string>
+    <string name="seus_documentos">Seus documentos</string>
+    <string name="em_andamento">%1$d em andamento</string>
+    <string name="vazio_documentos_detalhe">Toque em Novo documento para começar.</string>
+    <string name="assinaturas_x_de_y">%1$d de %2$d assinaturas</string>
+    <string name="ainda_nao_enviado">Ainda não enviado</string>
+    <string name="sem_pdf">Sem PDF</string>
+    <string name="arquivo_e_versao">%1$s · versão %2$d</string>
+    <string name="titulo_com_versao">%1$s · versão %2$d</string>
+    <string name="titulo_nova_versao">Nova versão (v%1$d)</string>
+    <string name="papel_assinado_em">%1$s · assinado em %2$s</string>
+    <string name="papel_toque_para_assinar">%1$s · toque para assinar</string>
+    <string name="passo_dados">1 Dados</string>
+    <string name="passo_campos">2 Campos</string>
+    <string name="passo_revisao">3 Revisão</string>
+    <string name="situacao_geral">Situação geral</string>
+    <string name="secao_signatarios_simples">Signatários</string>
+    <string name="assinou">Assinou</string>
+    <string name="papel_e_data">%1$s · %2$s</string>
+    <string name="assinaturas_concluido">%1$s. Documento final disponível.</string>
+    <string name="etapa_enviado">Enviado para assinatura</string>
+    <string name="etapa_assinando">Assinando (%1$d de %2$d)</string>
+    <string name="etapa_em_andamento">Em andamento</string>
+    <string name="etapa_aguardando">Aguardando</string>
+    <string name="evento_criado">Documento criado</string>
+    <string name="evento_enviado">Enviado para assinatura</string>
+    <string name="evento_assinado">Assinou</string>
+    <string name="evento_assinou_nome">Assinou: %1$s</string>
+    <string name="evento_concluido">Documento concluído</string>
+    <string name="botao_nova_versao">Criar nova versão</string>
+    <string name="nova_versao_titulo">Criar nova versão?</string>
+    <string name="nova_versao_msg">Nasce a versão %1$d como rascunho, com o mesmo PDF, signatários, papéis e campos, e sem assinaturas. O original continua como está.</string>
+    <string name="botao_criar">Criar</string>
+    <string name="nova_versao_criada">Nova versão criada como rascunho. O original foi preservado.</string>
+    <string name="nova_versao_falha">Não foi possível criar a nova versão</string>
+
+    <!-- Limite de signatários -->
+    <string name="signatarios_de_limite">%1$d de %2$d signatários cadastrados</string>
+    <string name="limite_signatarios_atingido">Limite de signatários atingido</string>
+    <string name="erro_limite_signatarios">O limite de %1$d signatários foi atingido. Edite um dos cadastrados.</string>
+
+    <!-- Assinaturas no acompanhamento -->
+    <string name="assinou_em">Assinou em %1$s</string>
+    <string name="ainda_nao_assinou">Ainda não assinou</string>
+    <string name="assinatura_de">Assinatura de %1$s</string>
+    <string name="botao_ver_assinado">Ver documento assinado</string>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:name=".LetsSignApp"
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LetsSign">
+
+        <activity
+            android:name=".ui.LoginActivity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".ui.AdminHomeActivity" />
+        <activity
+            android:name=".ui.SignatarioFormActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".ui.NovoDocumentoActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".ui.PosicionarCamposActivity" />
+        <activity android:name=".ui.RevisaoEnvioActivity" />
+        <activity android:name=".ui.DocumentoDetalheActivity" />
+        <activity android:name=".ui.SignatarioHomeActivity" />
+        <activity android:name=".ui.AssinarActivity" />
+    </application>
+
+</manifest>
