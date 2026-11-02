@@ -22,7 +22,6 @@ public class Regras {
         return StatusDocumento.CONCLUIDO;
     }
 
-    // PROVISÓRIA: o Breno vai reescrever esta regra
     // Devolve a lista de problemas encontrados; lista vazia = pode enviar.
     public static java.util.List<String> validarEnvio(String titulo, boolean temPdf, java.util.List<String> emailsSignatarios) {
         java.util.List<String> erros = new java.util.ArrayList<>();
@@ -44,7 +43,7 @@ public class Regras {
         return erros;
     }
 
-    // PROVISÓRIA: o Breno vai reescrever esta regra
+    // Formato simples: algo@dominio.ext, sem espaços.
     public static boolean emailValido(String email) {
         return email != null && email.trim().matches("^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$");
     }

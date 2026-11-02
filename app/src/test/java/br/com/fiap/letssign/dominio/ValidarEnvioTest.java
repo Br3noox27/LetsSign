@@ -10,7 +10,7 @@ import java.util.List;
 
 import org.junit.Test;
 
-// Testes da regra PROVISÓRIA validarEnvio (o Breno vai reescrever a regra e estes testes).
+// Testes da regra validarEnvio: título, PDF e signatários antes de enviar.
 public class ValidarEnvioTest {
 
     private static final List<String> UM_EMAIL = Collections.singletonList("ana@empresa.com");
